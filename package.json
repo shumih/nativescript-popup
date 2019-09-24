@@ -56,14 +56,15 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/triniwiz/nativescript-popup",
   "readmeFilename": "README.md",
-  "devDependencies": {
-    "tns-core-modules": "^3.1.0",
-    "tns-platform-declarations": "^3.1.0",
-    "typescript": "~2.3.0",
-    "prompt": "^1.0.0",
-    "rimraf": "^2.5.0",
-    "tslint": "^5.0.0"
-  },
   "dependencies": {},
-  "bootstrapper": "nativescript-plugin-seed"
+  "bootstrapper": "nativescript-plugin-seed",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "prompt": "^1.0.0",
+    "rimraf": "^3.0.0",
+    "tns-core-modules": "^6.1.1",
+    "tns-platform-declarations": "^6.1.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
 }
